@@ -27,7 +27,6 @@
     ]
   },
   "extensions": {
-    "disabled": [],
     "enabled": [
       "ms-python.python",
       "ms-python.vscode-pylance",
@@ -38,8 +37,7 @@
       "ms-python.black-formatter",
       "ms-python.isort",
       "eamodio.gitlens"
-    ]
-  },
-  "globalState": {},
-  "keybindings": []
+    ],
+    "disabled": []
+  }
 }
