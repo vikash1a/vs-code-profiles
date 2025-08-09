@@ -1,18 +1,5 @@
 {
   "name": "Python-Django-Postgres-Docker",
-  "extensions": {
-    "recommendations": [
-      "ms-python.python",
-      "ms-python.vscode-pylance",
-      "batisteo.vscode-django",
-      "ms-ossdata.vscode-postgresql",
-      "ms-azuretools.vscode-docker",
-      "ms-vscode-remote.remote-containers",
-      "ms-python.black-formatter",
-      "ms-python.isort",
-      "eamodio.gitlens"
-    ]
-  },
   "settings": {
     "python.defaultInterpreterPath": ".venv/bin/python",
     "python.formatting.provider": "black",
@@ -38,5 +25,21 @@
         "password": "password"
       }
     ]
-  }
+  },
+  "extensions": {
+    "disabled": [],
+    "enabled": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "batisteo.vscode-django",
+      "ms-ossdata.vscode-postgresql",
+      "ms-azuretools.vscode-docker",
+      "ms-vscode-remote.remote-containers",
+      "ms-python.black-formatter",
+      "ms-python.isort",
+      "eamodio.gitlens"
+    ]
+  },
+  "globalState": {},
+  "keybindings": []
 }
